@@ -35,7 +35,7 @@ color: orange;
 }
 .column {
     float: left;
-    width: 33.33%;
+    width: 20%;
     padding: 5px;
   }
   .row::after {
@@ -43,3 +43,38 @@ color: orange;
     clear: both;
     display: table;
   }
+  .experience-item{
+      width: 40%;
+      margin-left: 5%;
+      margin-right: 5%;
+      border: black 10px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 10px;
+      background-color: mistyrose;
+  }
+  #web{
+      border: black;
+  }
+  .flexible{
+    display: flex;
+    margin-bottom: 100px;
+    font-size: 10px;
+  }
+  img {
+    width: 20%;
+    height: 100%;
+  }
+  .half-width{
+      text-align: left;
+  }
+  .half-width{
+      font-size: 20px;
+      text-align: center;
+  }
+  .half-width{
+      text-align: center;
+  }
+h1{
+    text-align: center;
+}
